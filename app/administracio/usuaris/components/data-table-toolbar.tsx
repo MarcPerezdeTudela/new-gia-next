@@ -40,7 +40,7 @@ export function DataTableToolbar<TData>({
               />
             </TooltipTrigger>
             <TooltipContent>
-              <p>Cerca pel capmp nom, correu electrònic o rol</p>
+              <p>Cerca per nom, correu electrònic o empresa</p>
             </TooltipContent>
           </Tooltip>
         </TooltipProvider>

@@ -31,7 +31,6 @@ export function UsersClient({ initialUsers }: UsersClientProps) {
   }, [initialUsers]);
 
   const handleDataChange = (updatedData: User[]) => {
-    // No loading state for updates or deletions
     setUsers(updatedData);
     toast.success("Dades actualitzades correctament");
   };

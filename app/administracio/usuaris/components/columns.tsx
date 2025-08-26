@@ -7,6 +7,7 @@ import { DataTableColumnHeader } from "./data-table-column-header";
 import { DataTableRowActions } from "./data-table-row-actions";
 import { Avatar } from "@radix-ui/react-avatar";
 import { AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { tr } from "@faker-js/faker";
 
 const getInitials = (name: string) => {
   return (
@@ -27,53 +28,39 @@ export const columns: ColumnDef<User>[] = [
     ),
     cell: ({ row }) => (
       <div className="w-[120px]">
-        {
-          <span className="text-sm px-1 py-0.5 tracking-wide">
-            {row.getValue("nif")}
-          </span>
-        }
+        <span className="font-mono text-sm">{row.getValue("nif")}</span>
       </div>
     ),
-    enableSorting: false,
+    enableSorting: true,
     enableHiding: false,
   },
   {
     accessorKey: "nom",
     header: ({ column }) => (
-      <DataTableColumnHeader column={column} title="Nom" />
+      <DataTableColumnHeader column={column} title="Usuari" />
     ),
     cell: ({ row }) => (
-      <div className="w-[250px] flex items-center gap-1">
+      <div className="flex items-center gap-3 min-w-0">
         <Avatar>
           <AvatarImage
-            className="h-8 w-8 rounded-full"
+            className="h-10 w-10 rounded-full"
             src={row.original.avatar}
-            alt={`Avatar de ${row.getValue("nom")}`}
+            alt=""
           />
-          <AvatarFallback className="h-8 w-8 rounded-full text-xs">
-            {getInitials(row.getValue("nom"))}
+          <AvatarFallback className="h-10 w-10 rounded-full text-sm font-medium">
+            {getInitials(row.original.nom)}
           </AvatarFallback>
         </Avatar>
-        <span className="ml-2 text-sm font-medium truncate">
-          {row.getValue("nom")}
-        </span>
+        <div className="min-w-0 flex-1 flex flex-col gap-0.5">
+          <div className="font-medium text-sm truncate">{row.original.nom}</div>
+          <div className="text-sm text-muted-foreground truncate">
+            {row.original.email}
+          </div>
+        </div>
       </div>
     ),
     enableSorting: true,
     enableHiding: false,
-  },
-  {
-    accessorKey: "email",
-    header: ({ column }) => (
-      <DataTableColumnHeader column={column} title="Email" />
-    ),
-    cell: ({ row }) => (
-      <div className="max-w-[150px] truncate">
-        <span>{row.getValue("email")}</span>
-      </div>
-    ),
-    enableSorting: true,
-    enableHiding: true,
   },
   {
     accessorKey: "empresa",
@@ -127,11 +114,20 @@ export const columns: ColumnDef<User>[] = [
         return null;
       }
 
+      const isActive = accessosData.label.toLowerCase() === "actiu";
+      const isInactive = accessosData.label.toLowerCase() === "inactiu";
+
+      const textColor = isActive
+        ? "text-green-600 dark:text-green-400"
+        : isInactive
+        ? "text-red-600 dark:text-red-400"
+        : "text-gray-700 dark:text-gray-300";
+
       return (
         <div className="flex w-[100px] items-center">
           {accessosData.icon && (
-            <div className="flex items-center gap-2">
-              <accessosData.icon className="size-4 text-muted-foreground" />
+            <div className="flex items-center gap-1.5">
+              <accessosData.icon className={`size-4 ${textColor}`} />
               <span>{accessosData.label}</span>
             </div>
           )}

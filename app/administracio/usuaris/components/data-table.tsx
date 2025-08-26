@@ -100,12 +100,20 @@ export function DataTable<TData, TValue>({
 
   const globalFilterFn = React.useCallback(
     (row: Row<unknown>, columnId: string, value: string) => {
-      const searchColumns = ["nif", "nom", "email", "empresa"];
+      const searchColumns = ["nif", "nom", "empresa"];
       const searchValue = value.toLowerCase();
-      return searchColumns.some((column) => {
+
+      const matchesColumns = searchColumns.some((column) => {
         const cellValue = row.getValue(column);
         return cellValue?.toString().toLowerCase().includes(searchValue);
       });
+
+      const matchesEmail = (row.original as User)?.email
+        ?.toString()
+        .toLowerCase()
+        .includes(searchValue);
+
+      return matchesColumns || matchesEmail;
     },
     []
   );

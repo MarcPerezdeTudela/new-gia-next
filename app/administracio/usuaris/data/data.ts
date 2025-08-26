@@ -3,9 +3,9 @@ import {
   User,
   GraduationCap,
   BriefcaseBusiness,
-  CircleCheck,
+  Check,
   Wrench,
-  CircleX,
+  X,
 } from "lucide-react";
 
 export enum Rol {
@@ -57,11 +57,11 @@ export const accessos: Data[] = [
   {
     value: Access.Active,
     label: "Actiu",
-    icon: CircleCheck,
+    icon: Check,
   },
   {
     value: Access.Inactive,
     label: "Inactiu",
-    icon: CircleX,
+    icon: X,
   },
 ];
