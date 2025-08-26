@@ -26,7 +26,7 @@ export function DataTableToolbar<TData>({
   const isFiltered = table.getState().columnFilters.length > 0;
 
   return (
-    <div className="flex items-end justify-between flex-wrap gap-2 md:gap-0">
+    <div className="flex items-end justify-between flex-wrap gap-4 ">
       <div className="flex flex-1 items-center gap-2 flex-wrap">
         <TooltipProvider>
           <Tooltip>
@@ -35,7 +35,7 @@ export function DataTableToolbar<TData>({
                 placeholder="Cercar..."
                 value={table.getState().globalFilter ?? ""}
                 onChange={(event) => table.setGlobalFilter(event.target.value)}
-                className="h-8 w-[150px] lg:w-[250px]"
+                className="h-8 w-full max-w-[250px] sm:w-[200px]"
               />
             </TooltipTrigger>
             <TooltipContent>

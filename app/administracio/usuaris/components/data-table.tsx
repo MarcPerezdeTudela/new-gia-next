@@ -30,6 +30,7 @@ import { DataTablePagination } from "./data-table-pagination";
 import { DataTableToolbar } from "./data-table-toolbar";
 import { DataTableRowActions } from "./data-table-row-actions";
 import { User } from "../data/schema";
+import { Button } from "@/components/ui/button";
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];
@@ -164,9 +165,9 @@ export function DataTable<TData, TValue>({
   return (
     <div className="flex flex-col gap-4">
       <DataTableToolbar table={table} />
-      <div className="overflow-hidden rounded-md border">
+      <div className="overflow-auto rounded-md border">
         <Table>
-          <TableHeader>
+          <TableHeader className="sticky top-0 z-10 bg-background">
             {table.getHeaderGroups().map((headerGroup) => (
               <TableRow key={headerGroup.id}>
                 {headerGroup.headers.map((header) => {
@@ -222,7 +223,22 @@ export function DataTable<TData, TValue>({
                   colSpan={columns.length}
                   className="h-24 text-center"
                 >
-                  Sense resultats.
+                  <span className="text-sm">
+                    No s&rsquo;han trobat usuaris amb els criteris de cerca.
+                  </span>
+                  <Button
+                    variant="outline"
+                    className="ml-4"
+                    onClick={() => {
+                      table.resetColumnFilters();
+                      table.resetGlobalFilter();
+                    }}
+                  >
+                    Neteja els filtres
+                  </Button>
+                  <Button variant="default" className="ml-4">
+                    Crear usuari
+                  </Button>
                 </TableCell>
               </TableRow>
             )}

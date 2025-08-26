@@ -7,6 +7,12 @@ import { DataTableColumnHeader } from "./data-table-column-header";
 import { DataTableRowActions } from "./data-table-row-actions";
 import { Avatar } from "@radix-ui/react-avatar";
 import { AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 export const columns: ColumnDef<User>[] = [
   {
@@ -57,7 +63,18 @@ export const columns: ColumnDef<User>[] = [
       <DataTableColumnHeader column={column} title="Email" />
     ),
     cell: ({ row }) => (
-      <div className="max-w-[300px] truncate">{row.getValue("email")}</div>
+      <div className="max-w-[150px] truncate">
+        <TooltipProvider>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <span>{row.getValue("email")}</span>
+            </TooltipTrigger>
+            <TooltipContent>
+              <p>{row.getValue("email")}</p>
+            </TooltipContent>
+          </Tooltip>
+        </TooltipProvider>
+      </div>
     ),
     enableSorting: true,
     enableHiding: true,
