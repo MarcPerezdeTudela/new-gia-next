@@ -7,7 +7,6 @@ import { DataTableColumnHeader } from "./data-table-column-header";
 import { DataTableRowActions } from "./data-table-row-actions";
 import { Avatar } from "@radix-ui/react-avatar";
 import { AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { tr } from "@faker-js/faker";
 
 const getInitials = (name: string) => {
   return (
