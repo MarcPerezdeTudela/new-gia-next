@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "cf4c7033-8839-41c6-a53c-207bc5f5309a",
+    "nif": "23571854M",
+    "avatar": "https://avatars.githubusercontent.com/u/7916952",
+    "nom": "Daniela Ayala Abrego",
+    "email": "Gregorio.RomoMontalvo16@hotmail.com",
+    "rol": "estudiant",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "6436e56d-19a3-44b6-a7e0-689ba519e445",
+    "nif": "12505876V",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/14.jpg",
+    "nom": "José Eduardo Chapa Orta",
+    "email": "Yolanda_AnguianoPadron58@gmail.com",
+    "rol": "gestor",
+    "empresa": "Menéndez Osorio Hermanos",
+    "access": "actiu"
+  },
+  {
+    "id": "73af821c-1c33-4c1a-ad45-de498360e827",
+    "nif": "76263433X",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/17.jpg",
+    "nom": "Cristóbal Huerta Mora",
+    "email": "Angel3@gmail.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "b053f5c1-faf8-4018-ad04-430f661de967",
+    "nif": "62657376V",
+    "avatar": "https://avatars.githubusercontent.com/u/22817906",
+    "nom": "Olivia Hinojosa Riojas",
+    "email": "Antonio.MaciasMontano@hotmail.com",
+    "rol": "tecnic",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "e3492829-9fd0-4820-a9ca-e75438901af1",
+    "nif": "35191590A",
+    "avatar": "https://avatars.githubusercontent.com/u/28824706",
+    "nom": "Sergio Vélez Estrada",
+    "email": "Carolina87@yahoo.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "3833a1aa-b1e5-4a90-b1dd-6a44efda7d36",
+    "nif": "16389416F",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/39.jpg",
+    "nom": "Ernesto Rivas Montéz",
+    "email": "Esteban_AbeytaBecerra57@yahoo.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "96d569a6-0b4f-4161-a8cc-90c3f013c8e2",
+    "nif": "55273454S",
+    "avatar": "https://avatars.githubusercontent.com/u/58580129",
+    "nom": "Sta. Verónica Paz Arredondo",
+    "email": "Diego_QuinteroRosario17@gmail.com",
+    "rol": "usuari",
+    "empresa": "Gracia Benavídez Hermanos",
+    "access": "inactiu"
+  },
+  {
+    "id": "fda3c1b2-d460-419f-b111-3c52e9edf90c",
+    "nif": "23149226W",
+    "avatar": "https://avatars.githubusercontent.com/u/79640937",
+    "nom": "Eva Matos Mayorga",
+    "email": "Soledad96@hotmail.com",
+    "rol": "usuari",
+    "empresa": "Velasco S.L.",
+    "access": "inactiu"
+  },
+  {
+    "id": "3d88b9f6-d166-4510-bf39-515005fe6345",
+    "nif": "71376163X",
+    "avatar": "https://avatars.githubusercontent.com/u/91764396",
+    "nom": "Ignacio Gámez Muñoz",
+    "email": "Raquel_AlonzoVelez47@gmail.com",
+    "rol": "gestor",
+    "empresa": "Roybal, Jiménez y Marrero Asociados",
+    "access": "actiu"
+  },
+  {
+    "id": "c21df985-a40d-440e-909e-568cb53c87cf",
+    "nif": "60425121G",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/53.jpg",
+    "nom": "Fernando Villegas Arteaga",
+    "email": "MariadelCarmen68@yahoo.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "50f241a3-151f-4d71-b7d6-540004accc93",
+    "nif": "48880811S",
+    "avatar": "https://avatars.githubusercontent.com/u/5057123",
+    "nom": "Pablo Estévez Armijo",
+    "email": "Norma.CervantezRangel70@hotmail.com",
+    "rol": "tecnic",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "f016fb7d-7b63-4966-b802-3ebe7db1412a",
+    "nif": "11490631S",
+    "avatar": "https://avatars.githubusercontent.com/u/10890296",
+    "nom": "César Menéndez Berríos",
+    "email": "Horacio_DelvalleMalave7@gmail.com",
+    "rol": "gestor",
+    "empresa": "Lebrón S.A.",
+    "access": "inactiu"
+  },
+  {
+    "id": "12aebef7-b1ef-4284-9eb8-835c913477d9",
+    "nif": "41316680D",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/12.jpg",
+    "nom": "Iván Medrano Terán",
+    "email": "German.PedrozaRodarte60@gmail.com",
+    "rol": "estudiant",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "7fd3ebbe-d837-408f-adb4-b752873a5695",
+    "nif": "21568125J",
+    "avatar": "https://avatars.githubusercontent.com/u/30621998",
+    "nom": "José Flórez Cerda",
+    "email": "Jesus.ArmendarizCortes0@hotmail.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "8dd4e4b2-303e-4b07-bc26-efceb94f22b3",
+    "nif": "41800872M",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/44.jpg",
+    "nom": "Micaela Moya Delatorre",
+    "email": "MariaSoledad_BustamanteHolguin59@gmail.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "714ecd9b-3e40-4b88-adfa-587d175b5b6c",
+    "nif": "11233681K",
+    "avatar": "https://avatars.githubusercontent.com/u/95681890",
+    "nom": "Eloisa Romo Espinoza",
+    "email": "Tomas29@hotmail.com",
+    "rol": "gestor",
+    "empresa": "Romero, Alfaro y Balderas Asociados",
+    "access": "inactiu"
+  },
+  {
+    "id": "9aa1df95-bf4d-4f18-8ff1-52039d819ea9",
+    "nif": "41461882N",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/44.jpg",
+    "nom": "José María Mota Tirado",
+    "email": "Elsa_MontezAmador@yahoo.com",
+    "rol": "tecnic",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "f9c462a0-1ab5-4526-8a40-2119ed9f94db",
+    "nif": "94369600W",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/5.jpg",
+    "nom": "Emilio Domínguez Valles",
+    "email": "Cristina_BacaLeon@yahoo.com",
+    "rol": "gestor",
+    "empresa": "Quesada, Jurado y Sanabria Asociados",
+    "access": "actiu"
+  },
+  {
+    "id": "a4bfa094-290c-4e99-8ccc-d8b742b79273",
+    "nif": "95554595Z",
+    "avatar": "https://avatars.githubusercontent.com/u/30169648",
+    "nom": "Isabela Lucio Merino",
+    "email": "Andres_LuceroAtencio42@gmail.com",
+    "rol": "gestor",
+    "empresa": "Yáñez y Frías",
+    "access": "actiu"
+  },
+  {
+    "id": "2b87695e-445c-4547-8de0-410f4d7ea918",
+    "nif": "45453926S",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/25.jpg",
+    "nom": "Jennifer García Gastélum",
+    "email": "Mateo.HernandezLoya@gmail.com",
+    "rol": "usuari",
+    "empresa": "Galindo, Naranjo y Razo Asociados",
+    "access": "inactiu"
+  },
+  {
+    "id": "8cba0bcb-3fee-4f4c-a706-b35250a40ef4",
+    "nif": "95732856W",
+    "avatar": "https://avatars.githubusercontent.com/u/64564241",
+    "nom": "Susana Cotto Salas",
+    "email": "Eva79@yahoo.com",
+    "rol": "tecnic",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "e45c6de2-970e-45bb-8e23-1215ed158bee",
+    "nif": "66323323V",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/41.jpg",
+    "nom": "Patricio Barela Treviño",
+    "email": "Yolanda69@hotmail.com",
+    "rol": "gestor",
+    "empresa": "Villagómez Marín e Hijos",
+    "access": "actiu"
+  },
+  {
+    "id": "6e22daaa-7380-4442-8559-a0c3215c2f14",
+    "nif": "70197771T",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/36.jpg",
+    "nom": "Agustín Gallardo Arias",
+    "email": "Federico.CeballosIglesias39@gmail.com",
+    "rol": "estudiant",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "e5f10b83-8df2-400c-8cfd-ec0b067526cd",
+    "nif": "21722199X",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/94.jpg",
+    "nom": "Lourdes Delagarza Linares",
+    "email": "Mayte.RegaladoVanegas@gmail.com",
+    "rol": "usuari",
+    "empresa": "Toro y Montes",
+    "access": "inactiu"
+  },
+  {
+    "id": "e371af47-c940-48bd-bf03-5b18146433cd",
+    "nif": "37870402M",
+    "avatar": "https://avatars.githubusercontent.com/u/10557426",
+    "nom": "Sra. Yolanda Limón Gaitán",
+    "email": "Amalia.GilPalomino@gmail.com",
+    "rol": "usuari",
+    "empresa": "Urbina Olvera S.A.",
+    "access": "inactiu"
+  },
+  {
+    "id": "977e86b2-661f-46d0-b1f0-b9485afcb31b",
+    "nif": "76814951B",
+    "avatar": "https://avatars.githubusercontent.com/u/10412163",
+    "nom": "Marcos Valdez Pabón",
+    "email": "Patricio.AcevedoMunguia28@gmail.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "729ad157-7826-41cb-aeac-03fd3d3873e5",
+    "nif": "10151329A",
+    "avatar": "https://avatars.githubusercontent.com/u/14068351",
+    "nom": "Gerardo Velázquez Galindo",
+    "email": "Joaquin_FernandezAvalos@gmail.com",
+    "rol": "tecnic",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "0e2bccc3-9d56-4a82-8ce1-81ec6b08db78",
+    "nif": "50504508G",
+    "avatar": "https://avatars.githubusercontent.com/u/70305405",
+    "nom": "Jerónimo Roybal Rael",
+    "email": "Luisa48@yahoo.com",
+    "rol": "estudiant",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "6c194b07-d0c6-4a79-b5f0-3661e5d3fd5e",
+    "nif": "97834368G",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/94.jpg",
+    "nom": "Sra. Leticia Uribe Duarte",
+    "email": "Victor14@gmail.com",
+    "rol": "estudiant",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "227f9af2-efb1-472c-bb06-de79a12e35eb",
+    "nif": "81187804N",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/75.jpg",
+    "nom": "Adán Córdova Olmos",
+    "email": "Diego14@hotmail.com",
+    "rol": "tecnic",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "be4f913b-4b48-4bc5-8a1c-7d17b6911ed9",
+    "nif": "76416028T",
+    "avatar": "https://avatars.githubusercontent.com/u/82047140",
+    "nom": "Horacio Balderas Zayas",
+    "email": "Reina47@hotmail.com",
+    "rol": "tecnic",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "677e7225-28c9-467f-a014-f5f83d256fad",
+    "nif": "67451069G",
+    "avatar": "https://avatars.githubusercontent.com/u/5160943",
+    "nom": "Soledad Montéz Holguín",
+    "email": "Arturo55@yahoo.com",
+    "rol": "tecnic",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "66a565a9-3d8d-4549-89cc-5e6530873827",
+    "nif": "44558938A",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/58.jpg",
+    "nom": "Gregorio Peralta Zúñiga",
+    "email": "Julia_MoraHerrera28@yahoo.com",
+    "rol": "usuari",
+    "empresa": "Polanco y Maldonado",
+    "access": "inactiu"
+  },
+  {
+    "id": "bf62b168-1b74-4648-a391-6a4cf14eb7a0",
+    "nif": "97730231B",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/66.jpg",
+    "nom": "Esteban Pérez Rincón",
+    "email": "Alfonso68@hotmail.com",
+    "rol": "gestor",
+    "empresa": "Madrigal, Badillo y Carrillo Asociados",
+    "access": "actiu"
+  },
+  {
+    "id": "9d14acc6-9cb0-4776-97c6-1fe2c0c595d8",
+    "nif": "55818740V",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/57.jpg",
+    "nom": "Anita Viera Preciado",
+    "email": "Eduardo92@gmail.com",
+    "rol": "usuari",
+    "empresa": "Valverde Baeza S.L.",
+    "access": "actiu"
+  },
+  {
+    "id": "c6418d9f-d212-4c5f-8b77-2948581751a9",
+    "nif": "52089428V",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/62.jpg",
+    "nom": "Marcos Loera Garrido",
+    "email": "Alfredo71@gmail.com",
+    "rol": "gestor",
+    "empresa": "Cotto Hermanos",
+    "access": "actiu"
+  },
+  {
+    "id": "145fc529-0b1d-4db0-8bfe-c5a051dcac8e",
+    "nif": "55578954Y",
+    "avatar": "https://avatars.githubusercontent.com/u/30129823",
+    "nom": "Esteban Baeza Carrasquillo",
+    "email": "Laura_SeguraMalave@gmail.com",
+    "rol": "gestor",
+    "empresa": "Lozano, Granado y Peralta Asociados",
+    "access": "actiu"
+  },
+  {
+    "id": "66d96103-b148-42c0-8f6f-2efbf7fbe68e",
+    "nif": "41104501M",
+    "avatar": "https://avatars.githubusercontent.com/u/47638750",
+    "nom": "Martín Orozco Quintana",
+    "email": "Marta47@gmail.com",
+    "rol": "gestor",
+    "empresa": "Nieto, Arce y Tovar Asociados",
+    "access": "inactiu"
+  },
+  {
+    "id": "ae7529fc-da3e-4a82-8353-dd8000d33aa7",
+    "nif": "16290239Y",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/78.jpg",
+    "nom": "Samuel Esquivel Méndez",
+    "email": "Rosario_LedesmaCamacho@yahoo.com",
+    "rol": "gestor",
+    "empresa": "Galindo y Fernández",
+    "access": "actiu"
+  },
+  {
+    "id": "aaedd2b6-5d1e-46a2-904f-61d64222eb27",
+    "nif": "30331159R",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/69.jpg",
+    "nom": "Marco Antonio Valverde Posada",
+    "email": "Raul.MendozaPadilla@yahoo.com",
+    "rol": "estudiant",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "aa2efbb3-3719-4ec2-a9af-26e9ea5dd159",
+    "nif": "51516554G",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/51.jpg",
+    "nom": "Fernando Paredes Casanova",
+    "email": "Daniela_OrtegaPrieto@gmail.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "f92c3cf6-cf55-4df8-a1b7-19babb504371",
+    "nif": "99614080E",
+    "avatar": "https://avatars.githubusercontent.com/u/64358715",
+    "nom": "Francisca León Cárdenas",
+    "email": "Luz15@hotmail.com",
+    "rol": "gestor",
+    "empresa": "Terán y Gracia",
+    "access": "actiu"
+  },
+  {
+    "id": "5e74d0f2-6101-461b-80be-34a65f917796",
+    "nif": "39818319Y",
+    "avatar": "https://avatars.githubusercontent.com/u/90085210",
+    "nom": "Cecilia Niño Covarrubias",
+    "email": "Leonor.OlmosMedina78@gmail.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "c75f9ebf-902e-42c5-b606-89d2c99dd9c9",
+    "nif": "29593661K",
+    "avatar": "https://avatars.githubusercontent.com/u/18993878",
+    "nom": "Nicolás Camacho Ruíz",
+    "email": "Gloria_AriasQuinonez@gmail.com",
+    "rol": "usuari",
+    "empresa": "Niño Hermanos",
+    "access": "actiu"
+  },
+  {
+    "id": "1655096a-c4eb-4e06-8056-6a7e2301d66c",
+    "nif": "40079860Z",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/18.jpg",
+    "nom": "Fernando Valdivia Amador",
+    "email": "Ana_OrellanaAbeyta19@yahoo.com",
+    "rol": "usuari",
+    "empresa": "Farías e Hijos",
+    "access": "inactiu"
+  },
+  {
+    "id": "63e22ad1-7ce8-4086-8ead-bf1665aa4f77",
+    "nif": "48166483K",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/69.jpg",
+    "nom": "Jaime Carrillo Caballero",
+    "email": "Sergi.AponteGarica33@gmail.com",
+    "rol": "tecnic",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "eed48b1f-e435-41d7-a6df-4921e737dfee",
+    "nif": "54456072F",
+    "avatar": "https://avatars.githubusercontent.com/u/80987617",
+    "nom": "Rafael Sauceda Varela",
+    "email": "Ramon_BrionesGiron29@gmail.com",
+    "rol": "tecnic",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "dbfa9fad-bebd-461d-8bf7-cc934acf1478",
+    "nif": "50705991F",
+    "avatar": "https://avatars.githubusercontent.com/u/18224694",
+    "nom": "Ana Luisa Saldivar Jaimes",
+    "email": "Agustin.PerezPerea92@yahoo.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "d8eb3c27-144e-4f2a-bae9-f0065a440847",
+    "nif": "49348257D",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/57.jpg",
+    "nom": "Sergio Armenta Lira",
+    "email": "Marcos_CarreonMares11@gmail.com",
+    "rol": "usuari",
+    "empresa": "Saiz y Arce",
+    "access": "inactiu"
+  },
+  {
+    "id": "1410bf37-2c92-4515-98c6-beee8a0ade23",
+    "nif": "29485434D",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/85.jpg",
+    "nom": "Germán Farías Malave",
+    "email": "Elvira_CurielMarin@hotmail.com",
+    "rol": "estudiant",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "41084196-aaf0-4b93-a992-f4129fe7b03d",
+    "nif": "10578684H",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/10.jpg",
+    "nom": "Lola Lomeli Mora",
+    "email": "Monica_OlivaresNevarez81@hotmail.com",
+    "rol": "estudiant",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "199a0f27-94a4-42f8-8867-f666ad1f1fdc",
+    "nif": "81631009F",
+    "avatar": "https://avatars.githubusercontent.com/u/5241163",
+    "nom": "Lucas Delvalle Ramos",
+    "email": "David_BustosNavarrete@gmail.com",
+    "rol": "tecnic",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "1b447270-4ac1-498d-a765-376e5efeec6a",
+    "nif": "43326206W",
+    "avatar": "https://avatars.githubusercontent.com/u/11325805",
+    "nom": "Inés Rubio Valverde",
+    "email": "Bernardo_VelazquezUlloa1@hotmail.com",
+    "rol": "gestor",
+    "empresa": "Galván Hermanos",
+    "access": "inactiu"
+  },
+  {
+    "id": "6e0e0ae9-a596-4953-b6f3-4049efd1ac93",
+    "nif": "45999879V",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/82.jpg",
+    "nom": "Jaime Villarreal Gracia",
+    "email": "Gonzalo5@gmail.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "0774d2a8-0d14-40e3-afd9-98a75bd450c8",
+    "nif": "96257951F",
+    "avatar": "https://avatars.githubusercontent.com/u/39045729",
+    "nom": "Ariadna Alva Aponte",
+    "email": "Pilar_RiveroMascarenas89@hotmail.com",
+    "rol": "estudiant",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "d4040d62-acb7-42d3-885f-a9fc0886bb9b",
+    "nif": "50723129X",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/50.jpg",
+    "nom": "Timoteo Valle Chavarría",
+    "email": "Nicolas_ReynaLerma37@hotmail.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "1b5f109e-6a05-4671-b15f-84c24418f931",
+    "nif": "85176497E",
+    "avatar": "https://avatars.githubusercontent.com/u/28680357",
+    "nom": "Concepción Vera Villegas",
+    "email": "Leonor71@gmail.com",
+    "rol": "estudiant",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "d9a9030d-b9ba-4979-adda-88f08de64052",
+    "nif": "77060655Y",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/0.jpg",
+    "nom": "Gloria Caballero Alejandro",
+    "email": "Gloria.VallesAviles87@hotmail.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "8aea0ce6-4c58-4874-8669-f02ef92b6035",
+    "nif": "17447083L",
+    "avatar": "https://avatars.githubusercontent.com/u/99485703",
+    "nom": "Sr. Agustín Argüello Jiménez",
+    "email": "Rosa_VazquezLeyva11@yahoo.com",
+    "rol": "estudiant",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "9a5b2a53-1936-45ec-b628-b6059ef875e0",
+    "nif": "94947129R",
+    "avatar": "https://avatars.githubusercontent.com/u/8655351",
+    "nom": "Luis Valverde Orosco",
+    "email": "Norma.EsquivelValdez@yahoo.com",
+    "rol": "tecnic",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "60101f4d-9e26-4a7b-8307-574daf044f55",
+    "nif": "43701395S",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/77.jpg",
+    "nom": "Sta. Estela Balderas Miranda",
+    "email": "Eva_IrizarryZayas60@hotmail.com",
+    "rol": "usuari",
+    "empresa": "Córdova S.A.",
+    "access": "inactiu"
+  },
+  {
+    "id": "39c29d15-8bae-42db-bcf7-0377a9e292e8",
+    "nif": "51854915N",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/36.jpg",
+    "nom": "Sr. Julio Cuellar Becerra",
+    "email": "Gabriela_VarelaTerrazas39@hotmail.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "81f0c28c-6208-4b5b-bb16-2786b026f9c5",
+    "nif": "32577509X",
+    "avatar": "https://avatars.githubusercontent.com/u/85733553",
+    "nom": "José Lucero Campos",
+    "email": "Maria_TrevinoOlmos8@hotmail.com",
+    "rol": "estudiant",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "b51a60d1-1347-4659-90f6-0e57b2cfd668",
+    "nif": "93806294N",
+    "avatar": "https://avatars.githubusercontent.com/u/78185250",
+    "nom": "Pedro Piña Marín",
+    "email": "Emilia.MedinaMeraz@yahoo.com",
+    "rol": "estudiant",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "6af9bde2-20f0-4bf0-9e75-e00972db2313",
+    "nif": "61547607K",
+    "avatar": "https://avatars.githubusercontent.com/u/52162851",
+    "nom": "Sra. Eva Cadena Negrete",
+    "email": "Rosalia84@hotmail.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "de1fe7d7-d4e8-44b7-bdb9-72d7df406677",
+    "nif": "24397393M",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/0.jpg",
+    "nom": "Pío Cortéz Garza",
+    "email": "Gerardo_RoybalValentin69@hotmail.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "c00f13ab-4d3d-41b3-8cea-3fcd95de5334",
+    "nif": "70803951S",
+    "avatar": "https://avatars.githubusercontent.com/u/62725011",
+    "nom": "Marcos Rascón Burgos",
+    "email": "Ines25@gmail.com",
+    "rol": "tecnic",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "d4997aa8-55ed-458a-8bf5-5fe35f69ef4d",
+    "nif": "51623023Y",
+    "avatar": "https://avatars.githubusercontent.com/u/64607112",
+    "nom": "Homero Covarrubias Guajardo",
+    "email": "Armando.PelayoRuiz22@yahoo.com",
+    "rol": "estudiant",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "cd3aba99-b3ac-46b7-bd49-a99a5b86fb80",
+    "nif": "13905380V",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/23.jpg",
+    "nom": "Jordi Barrera Matías",
+    "email": "Raquel_BenitezPacheco@hotmail.com",
+    "rol": "tecnic",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "827453f1-dbed-42da-b157-264f485ea9ca",
+    "nif": "61877440B",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/97.jpg",
+    "nom": "Irene Tejada Gaytán",
+    "email": "Adan_PorrasSolano@hotmail.com",
+    "rol": "estudiant",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "45e8984d-d5b3-4469-90b4-0d19356801b5",
+    "nif": "45214947Y",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/87.jpg",
+    "nom": "Joaquín Dueñas Ibarra",
+    "email": "Ramona30@gmail.com",
+    "rol": "tecnic",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "767dd1a4-b1c4-4d37-b4d0-7f0fe0d2ce8b",
+    "nif": "41601396P",
+    "avatar": "https://avatars.githubusercontent.com/u/32234056",
+    "nom": "Pedro Montalvo Sánchez",
+    "email": "Rosalia31@hotmail.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "0a416fc3-7633-4643-a6b0-4f95a8e8ead9",
+    "nif": "67356718E",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/65.jpg",
+    "nom": "Rodrigo Alonzo Tejada",
+    "email": "Yolanda88@yahoo.com",
+    "rol": "gestor",
+    "empresa": "Leyva, Valenzuela y Rascón Asociados",
+    "access": "inactiu"
+  },
+  {
+    "id": "a5986db6-1ec9-4cfc-ab59-59b3b20e4a91",
+    "nif": "93082380T",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/3.jpg",
+    "nom": "Francisca Batista Briones",
+    "email": "Eduardo_SalazarTafoya13@gmail.com",
+    "rol": "estudiant",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "ff36bad6-28c5-4292-83a9-99e3a5f47bb6",
+    "nif": "85960380L",
+    "avatar": "https://avatars.githubusercontent.com/u/79018419",
+    "nom": "Sara Almonte Sosa",
+    "email": "Sancho.MaresDelgadillo15@gmail.com",
+    "rol": "tecnic",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "7c25841e-3cd8-4503-84a4-72758b8af4d1",
+    "nif": "93235864M",
+    "avatar": "https://avatars.githubusercontent.com/u/3917987",
+    "nom": "Emilio de Anda Tello",
+    "email": "Ricardo42@hotmail.com",
+    "rol": "tecnic",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "8d67a73c-c087-4a5c-9843-c3ab7ecad1e4",
+    "nif": "52329713K",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/86.jpg",
+    "nom": "Sr. Horacio Badillo Pineda",
+    "email": "Antonio.CasarezAlaniz6@hotmail.com",
+    "rol": "gestor",
+    "empresa": "Galván S.A.",
+    "access": "actiu"
+  },
+  {
+    "id": "a1341b98-ee05-45cf-8a9f-49a0af27940f",
+    "nif": "26096501B",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/58.jpg",
+    "nom": "Daniel Miramontes Urías",
+    "email": "Olivia81@hotmail.com",
+    "rol": "gestor",
+    "empresa": "Aranda y Carrasco",
+    "access": "actiu"
+  },
+  {
+    "id": "651db70e-18ab-4ced-9b04-5072a4676867",
+    "nif": "81606071R",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/77.jpg",
+    "nom": "Margarita Crespo Corral",
+    "email": "Oscar3@yahoo.com",
+    "rol": "estudiant",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "0c567ab9-4d8b-4c62-9e79-49b67d311dae",
+    "nif": "72995448A",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/44.jpg",
+    "nom": "Gabriel Santacruz Medrano",
+    "email": "Mariano_SantiagoGaitan87@yahoo.com",
+    "rol": "tecnic",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "a72a8629-41b0-44c2-9401-b490b07b2f14",
+    "nif": "27439908B",
+    "avatar": "https://avatars.githubusercontent.com/u/72120716",
+    "nom": "Rosario Chávez Maestas",
+    "email": "Antonio_FloresRosado@yahoo.com",
+    "rol": "tecnic",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "738e2c4c-2672-4979-8908-ce5bc2dd9c14",
+    "nif": "14855276J",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/91.jpg",
+    "nom": "Julio César Rolón Anaya",
+    "email": "Ramiro_SantiagoMiranda@yahoo.com",
+    "rol": "tecnic",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "a9331a56-bbf0-4538-bbe8-edf16084f69e",
+    "nif": "80816604D",
+    "avatar": "https://avatars.githubusercontent.com/u/5549913",
+    "nom": "Jaime Loya Salcedo",
+    "email": "Roberto1@hotmail.com",
+    "rol": "estudiant",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "26737829-7d41-47d7-866b-2ba86b5c86a2",
+    "nif": "53233397N",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/0.jpg",
+    "nom": "Jorge Luis Bernal Camarillo",
+    "email": "Josep_GuevaraRobledo90@gmail.com",
+    "rol": "tecnic",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "20c51487-d803-4d7b-8b97-57da2b01dec3",
+    "nif": "28757519K",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/41.jpg",
+    "nom": "Marco Antonio Osorio Limón",
+    "email": "Fernando12@yahoo.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "959667b1-a698-4526-b89f-ad6f06f905c6",
+    "nif": "11148364B",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/78.jpg",
+    "nom": "Sta. Elena Véliz Delrío",
+    "email": "Emilio_RodriguezSepulveda94@hotmail.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "actiu"
+  },
+  {
+    "id": "8fa243b1-56f5-4aca-a379-ad3c6d86c120",
+    "nif": "83794961G",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/82.jpg",
+    "nom": "Gustavo Zarate Cadena",
+    "email": "Lucia65@gmail.com",
+    "rol": "usuari",
+    "empresa": "Escamilla, Balderas y Gutiérrez Asociados",
+    "access": "actiu"
+  },
+  {
+    "id": "46059154-f730-45c1-ad1f-f1fc891fd980",
+    "nif": "18209606T",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/87.jpg",
+    "nom": "Lucas Delarosa Loya",
+    "email": "Fernando.TejadaGalvan@hotmail.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "535a2703-2543-4e96-9a76-5d54d746bede",
+    "nif": "12177704D",
+    "avatar": "https://avatars.githubusercontent.com/u/62785893",
+    "nom": "Ramona Correa Castro",
+    "email": "Graciela90@gmail.com",
+    "rol": "gestor",
+    "empresa": "Mejía S.A.",
+    "access": "inactiu"
+  },
+  {
+    "id": "2886480b-e2c1-419c-8aff-71d3dcb94528",
+    "nif": "17628535R",
+    "avatar": "https://avatars.githubusercontent.com/u/97101433",
+    "nom": "Manuela Becerra Pérez",
+    "email": "MarcoAntonio10@yahoo.com",
+    "rol": "usuari",
+    "empresa": "Aguilar Cervántez e Hijos",
+    "access": "actiu"
+  },
+  {
+    "id": "f9f7865d-f43f-4aaf-ab03-adaae18aeb56",
+    "nif": "36377769A",
+    "avatar": "https://avatars.githubusercontent.com/u/43824162",
+    "nom": "Lucas Segovia Briseño",
+    "email": "Claudio_EscobarReynoso61@yahoo.com",
+    "rol": "estudiant",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "464753f5-6f69-43ee-b310-68a35e19e638",
+    "nif": "83471794X",
+    "avatar": "https://avatars.githubusercontent.com/u/73306259",
+    "nom": "Guillermo Arevalo Salcido",
+    "email": "Luis.MiramontesQuinonez80@yahoo.com",
+    "rol": "gestor",
+    "empresa": "Benítez Molina e Hijos",
+    "access": "actiu"
+  },
+  {
+    "id": "8bc59f7e-3c53-49b9-a8a3-e108b2d8b39b",
+    "nif": "39490864W",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/47.jpg",
+    "nom": "Tomás Carreón Botello",
+    "email": "Marta_RodarteMartinez@hotmail.com",
+    "rol": "usuari",
+    "empresa": "Cisneros y Delvalle",
+    "access": "actiu"
+  },
+  {
+    "id": "a6ef7dc5-68ef-40fc-b07a-84447383d6e5",
+    "nif": "16892703P",
+    "avatar": "https://avatars.githubusercontent.com/u/17545003",
+    "nom": "Rocío Huerta Cotto",
+    "email": "Anita_CandelariaGalindo15@gmail.com",
+    "rol": "gestor",
+    "empresa": "Lira Rivera Hermanos",
+    "access": "inactiu"
+  },
+  {
+    "id": "695ec728-ee83-47d6-b5fb-556f4c1bd0c4",
+    "nif": "17949373N",
+    "avatar": "https://avatars.githubusercontent.com/u/10086931",
+    "nom": "Ana Luisa Ortiz Balderas",
+    "email": "Rocio10@hotmail.com",
+    "rol": "usuari",
+    "empresa": "Zarate Urrutia S.A.",
+    "access": "inactiu"
+  },
+  {
+    "id": "9d8771a7-f46c-4bf1-9836-f7229b58973a",
+    "nif": "29071463S",
+    "avatar": "https://avatars.githubusercontent.com/u/63144848",
+    "nom": "Irene Mena Acuña",
+    "email": "Luis_RoybalVega88@yahoo.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "b7916f5c-a79d-4848-b363-b3dcc5c46fca",
+    "nif": "60945166L",
+    "avatar": "https://avatars.githubusercontent.com/u/96400138",
+    "nom": "Eduardo Negrón Adame",
+    "email": "LuisMiguel_QuinteroFonseca@yahoo.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "99217aa9-bfd6-4c89-b07b-6886824c0452",
+    "nif": "78756222J",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/42.jpg",
+    "nom": "Roberto Barragán Reyna",
+    "email": "David.CastilloRubio@yahoo.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "inactiu"
+  },
+  {
+    "id": "3bc156d5-ca32-4ce7-a7e0-02b7d1ae3821",
+    "nif": "17704283X",
+    "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/87.jpg",
+    "nom": "Federico Cavazos Anguiano",
+    "email": "Rodrigo.AbreuVelasquez@yahoo.com",
+    "rol": "gestor",
+    "empresa": "Gil Delgado S.A.",
+    "access": "inactiu"
+  },
+  {
+    "id": "155fce8b-dcb8-4b1a-b530-c5919b8ed234",
+    "nif": "79116568H",
+    "avatar": "https://avatars.githubusercontent.com/u/24172457",
+    "nom": "Andrea Ledesma Delatorre",
+    "email": "Cesar39@gmail.com",
+    "rol": "admin",
+    "empresa": null,
+    "access": "actiu"
+  }
+]
