@@ -43,7 +43,7 @@ export const columns: ColumnDef<User>[] = [
           <AvatarImage
             className="h-8 w-8 rounded-full"
             src={row.original.avatar}
-            alt={row.getValue("nom")}
+            alt={`Avatar de ${row.getValue("nom")}`}
           />
           <AvatarFallback className="h-8 w-8 rounded-full text-xs">
             GI
@@ -150,6 +150,7 @@ export const columns: ColumnDef<User>[] = [
   },
   {
     id: "accions",
+    header: () => <span className="sr-only">Accions</span>,
     cell: ({ row }) => <DataTableRowActions row={row} />,
   },
 ];

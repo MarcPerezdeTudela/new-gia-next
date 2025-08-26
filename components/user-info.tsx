@@ -16,7 +16,10 @@ export function UserInfo() {
       <DropdownMenuTrigger asChild>
         <div className="flex cursor-pointer items-center rounded-md px-2 py-1 hover:bg-accent transition-colors">
           <Avatar className="h-8 w-8">
-            <AvatarImage src="https://github.com/shadcn.png" />
+            <AvatarImage
+              src="https://github.com/shadcn.png"
+              alt="User Avatar"
+            />
             <AvatarFallback className="text-xs">JD</AvatarFallback>
           </Avatar>
           <span className="sr-only">Open user menu</span>

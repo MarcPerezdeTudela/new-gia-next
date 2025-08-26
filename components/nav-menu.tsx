@@ -102,7 +102,7 @@ function MobileMenu() {
                 className="inline-flex items-center text-xl font-bold italic tracking-tight hover:text-primary transition-colors duration-200"
                 onClick={() => setOpen(false)}
               >
-                <span>GIA</span>
+                <h1>GIA</h1>
               </Link>
             </SheetTitle>
             <SheetDescription>
@@ -185,11 +185,6 @@ function MobileMenu() {
 export function NavMenu() {
   return (
     <>
-      <Link
-        className="lg:hidden flex items-center text-xl font-bold italic tracking-tight hover:text-primary transition-colors duration-200"
-        href="/"
-      ></Link>
-
       <NavigationMenu className="hidden lg:flex" viewport={false}>
         <NavigationMenuList>
           <NavigationMenuItem>
@@ -198,7 +193,7 @@ export function NavMenu() {
                 className="mr-6 flex items-center text-xl font-bold italic tracking-tight hover:text-primary transition-colors duration-200"
                 href="/"
               >
-                <span>GIA</span>
+                <h1>GIA</h1>
               </Link>
             </NavigationMenuLink>
           </NavigationMenuItem>

@@ -33,6 +33,7 @@ export function DataTableToolbar<TData>({
             <TooltipTrigger asChild>
               <Input
                 placeholder="Cercar..."
+                aria-label="Cercar usuaris"
                 value={table.getState().globalFilter ?? ""}
                 onChange={(event) => table.setGlobalFilter(event.target.value)}
                 className="h-8 w-full max-w-[250px] sm:w-[200px]"
