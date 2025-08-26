@@ -15,6 +15,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import Link from "next/link";
 
 interface DataTableToolbarProps<TData> {
   table: Table<TData>;
@@ -72,8 +73,8 @@ export function DataTableToolbar<TData>({
       </div>
       <div className="flex items-center gap-2">
         <DataTableViewOptions table={table} />
-        <Button size="sm" aria-label="Crear un nou usuari">
-          Nou Usuari
+        <Button size="sm" aria-label="Crear un nou usuari" asChild>
+          <Link href="/administracio/usuaris/nou">Nou Usuari</Link>
         </Button>
       </div>
     </div>
