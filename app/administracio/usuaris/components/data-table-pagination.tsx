@@ -60,7 +60,6 @@ export function DataTablePagination<TData>({
               disabled={!table.getCanPreviousPage()}
               aria-label="Anar a la primera pàgina"
             >
-              <span className="sr-only">Anar a la primera pàgina</span>
               <ChevronsLeft aria-hidden="true" />
             </Button>
             <Button
@@ -71,7 +70,6 @@ export function DataTablePagination<TData>({
               disabled={!table.getCanPreviousPage()}
               aria-label="Anar a la pàgina anterior"
             >
-              <span className="sr-only">Anar a la pàgina anterior</span>
               <ChevronLeft aria-hidden="true" />
             </Button>
             <Button
@@ -82,7 +80,6 @@ export function DataTablePagination<TData>({
               disabled={!table.getCanNextPage()}
               aria-label="Anar a la pàgina següent"
             >
-              <span className="sr-only">Anar a la pàgina següent</span>
               <ChevronRight aria-hidden="true" />
             </Button>
             <Button
@@ -93,7 +90,6 @@ export function DataTablePagination<TData>({
               disabled={!table.getCanNextPage()}
               aria-label="Anar a la darrera pàgina"
             >
-              <span className="sr-only">Anar a la darrera pàgina</span>
               <ChevronsRight aria-hidden="true" />
             </Button>
           </div>

@@ -70,8 +70,9 @@ export function DataTableFacetedFilter<TData, TValue>({
                   <Badge
                     variant="secondary"
                     className="rounded-sm px-1 font-normal"
+                    aria-label={`${selectedValues.size} filtres seleccionats`}
                   >
-                    {selectedValues.size} selected
+                    {selectedValues.size}
                   </Badge>
                 ) : (
                   options
@@ -113,7 +114,7 @@ export function DataTableFacetedFilter<TData, TValue>({
                         filterValues.length ? filterValues : undefined
                       );
                     }}
-                    role="checkbox"
+                    role="option"
                     aria-checked={isSelected}
                   >
                     <div

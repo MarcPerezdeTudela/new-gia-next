@@ -81,7 +81,6 @@ export function DataTableRowActions<TData>({
           aria-haspopup="menu"
         >
           <MoreHorizontal aria-hidden="true" />
-          <span className="sr-only">Obrir menú</span>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-[160px]">
