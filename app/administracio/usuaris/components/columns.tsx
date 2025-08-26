@@ -127,7 +127,10 @@ export const columns: ColumnDef<User>[] = [
         <div className="flex w-[100px] items-center">
           {accessosData.icon && (
             <div className="flex items-center gap-1.5">
-              <accessosData.icon className={`size-4 ${textColor}`} />
+              <accessosData.icon
+                className={`size-4 ${textColor}`}
+                aria-hidden="true"
+              />
               <span>{accessosData.label}</span>
             </div>
           )}
