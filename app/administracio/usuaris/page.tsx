@@ -8,18 +8,11 @@ import {
   Breadcrumb,
   BreadcrumbList,
   BreadcrumbItem,
-  BreadcrumbEllipsis,
   BreadcrumbLink,
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import Link from "next/link";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-} from "@/components/ui/dropdown-menu";
-import { DropdownMenuTrigger } from "@radix-ui/react-dropdown-menu";
 
 async function getUsers() {
   const data = await fs.readFile(

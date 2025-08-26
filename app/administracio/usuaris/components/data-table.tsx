@@ -25,12 +25,10 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-
 import { DataTablePagination } from "./data-table-pagination";
 import { DataTableToolbar } from "./data-table-toolbar";
 import { DataTableRowActions } from "./data-table-row-actions";
 import { User } from "../data/schema";
-import { Button } from "@/components/ui/button";
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[];
@@ -100,19 +98,17 @@ export function DataTable<TData, TValue>({
     [tableData, onDataChange]
   );
 
-  const globalFilterFn = (
-    row: Row<unknown>,
-    columnId: string,
-    value: string
-  ) => {
-    const searchColumns = ["nif", "nom", "email", "empresa"];
-    const searchValue = value.toLowerCase();
-
-    return searchColumns.some((column) => {
-      const cellValue = row.getValue(column);
-      return cellValue?.toString().toLowerCase().includes(searchValue);
-    });
-  };
+  const globalFilterFn = React.useCallback(
+    (row: Row<unknown>, columnId: string, value: string) => {
+      const searchColumns = ["nif", "nom", "email", "empresa"];
+      const searchValue = value.toLowerCase();
+      return searchColumns.some((column) => {
+        const cellValue = row.getValue(column);
+        return cellValue?.toString().toLowerCase().includes(searchValue);
+      });
+    },
+    []
+  );
 
   const columnsWithHandlers = React.useMemo(() => {
     return columns.map((column) => {
@@ -165,31 +161,29 @@ export function DataTable<TData, TValue>({
   return (
     <div className="flex flex-col gap-4">
       <DataTableToolbar table={table} />
-      <div className="overflow-auto rounded-md border">
+      <div className="relative overflow-auto rounded-md border">
         <Table>
           <TableHeader className="sticky top-0 z-10 bg-background">
             {table.getHeaderGroups().map((headerGroup) => (
               <TableRow key={headerGroup.id}>
-                {headerGroup.headers.map((header) => {
-                  return (
-                    <TableHead
-                      key={header.id}
-                      colSpan={header.colSpan}
-                      className={
-                        header.column.getIsPinned()
-                          ? "sticky right-0 z-10 bg-background"
-                          : ""
-                      }
-                    >
-                      {header.isPlaceholder
-                        ? null
-                        : flexRender(
-                            header.column.columnDef.header,
-                            header.getContext()
-                          )}
-                    </TableHead>
-                  );
-                })}
+                {headerGroup.headers.map((header) => (
+                  <TableHead
+                    key={header.id}
+                    colSpan={header.colSpan}
+                    className={
+                      header.column.getIsPinned()
+                        ? "sticky right-0 z-10 bg-background"
+                        : ""
+                    }
+                  >
+                    {header.isPlaceholder
+                      ? null
+                      : flexRender(
+                          header.column.columnDef.header,
+                          header.getContext()
+                        )}
+                  </TableHead>
+                ))}
               </TableRow>
             ))}
           </TableHeader>
@@ -223,22 +217,7 @@ export function DataTable<TData, TValue>({
                   colSpan={columns.length}
                   className="h-24 text-center"
                 >
-                  <span className="text-sm">
-                    No s&rsquo;han trobat usuaris amb els criteris de cerca.
-                  </span>
-                  <Button
-                    variant="outline"
-                    className="ml-4"
-                    onClick={() => {
-                      table.resetColumnFilters();
-                      table.resetGlobalFilter();
-                    }}
-                  >
-                    Neteja els filtres
-                  </Button>
-                  <Button variant="default" className="ml-4">
-                    Crear usuari
-                  </Button>
+                  Sense resultats.
                 </TableCell>
               </TableRow>
             )}
