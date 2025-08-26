@@ -32,6 +32,7 @@ export function DataTablePagination<TData>({
             onValueChange={(value) => {
               table.setPageSize(Number(value));
             }}
+            aria-label="Seleccionar nombre de registres per pàgina"
           >
             <SelectTrigger className="h-8 w-[70px]">
               <SelectValue placeholder={table.getState().pagination.pageSize} />
@@ -57,9 +58,10 @@ export function DataTablePagination<TData>({
               className="hidden size-8 lg:flex"
               onClick={() => table.setPageIndex(0)}
               disabled={!table.getCanPreviousPage()}
+              aria-label="Anar a la primera pàgina"
             >
-              <span className="sr-only">Go to first page</span>
-              <ChevronsLeft />
+              <span className="sr-only">Anar a la primera pàgina</span>
+              <ChevronsLeft aria-hidden="true" />
             </Button>
             <Button
               variant="outline"
@@ -67,9 +69,10 @@ export function DataTablePagination<TData>({
               className="size-8"
               onClick={() => table.previousPage()}
               disabled={!table.getCanPreviousPage()}
+              aria-label="Anar a la pàgina anterior"
             >
-              <span className="sr-only">Go to previous page</span>
-              <ChevronLeft />
+              <span className="sr-only">Anar a la pàgina anterior</span>
+              <ChevronLeft aria-hidden="true" />
             </Button>
             <Button
               variant="outline"
@@ -77,9 +80,10 @@ export function DataTablePagination<TData>({
               className="size-8"
               onClick={() => table.nextPage()}
               disabled={!table.getCanNextPage()}
+              aria-label="Anar a la pàgina següent"
             >
-              <span className="sr-only">Go to next page</span>
-              <ChevronRight />
+              <span className="sr-only">Anar a la pàgina següent</span>
+              <ChevronRight aria-hidden="true" />
             </Button>
             <Button
               variant="outline"
@@ -87,9 +91,10 @@ export function DataTablePagination<TData>({
               className="hidden size-8 lg:flex"
               onClick={() => table.setPageIndex(table.getPageCount() - 1)}
               disabled={!table.getCanNextPage()}
+              aria-label="Anar a la darrera pàgina"
             >
-              <span className="sr-only">Go to last page</span>
-              <ChevronsRight />
+              <span className="sr-only">Anar a la darrera pàgina</span>
+              <ChevronsRight aria-hidden="true" />
             </Button>
           </div>
         </div>

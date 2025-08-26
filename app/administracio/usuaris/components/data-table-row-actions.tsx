@@ -76,9 +76,12 @@ export function DataTableRowActions<TData>({
           variant="ghost"
           size="icon"
           className="data-[state=open]:bg-muted size-8"
+          aria-label={`Obrir menú d'accions per a ${user.nom}`}
+          aria-expanded={false}
+          aria-haspopup="menu"
         >
-          <MoreHorizontal />
-          <span className="sr-only">Open menu</span>
+          <MoreHorizontal aria-hidden="true" />
+          <span className="sr-only">Obrir menú</span>
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-[160px]">

@@ -40,7 +40,7 @@ export function DataTableToolbar<TData>({
               />
             </TooltipTrigger>
             <TooltipContent>
-              <p>Cerca per nom, email o rol</p>
+              <p>Cerca pel capmp nom, correu electrònic o rol</p>
             </TooltipContent>
           </Tooltip>
         </TooltipProvider>
@@ -63,15 +63,18 @@ export function DataTableToolbar<TData>({
             variant="ghost"
             size="sm"
             onClick={() => table.resetColumnFilters()}
+            aria-label="Esborrar tots els filtres"
           >
             Reset
-            <X />
+            <X aria-hidden="true" />
           </Button>
         )}
       </div>
       <div className="flex items-center gap-2">
         <DataTableViewOptions table={table} />
-        <Button size="sm">Nou Usuari</Button>
+        <Button size="sm" aria-label="Crear un nou usuari">
+          Nou Usuari
+        </Button>
       </div>
     </div>
   );

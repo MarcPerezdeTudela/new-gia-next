@@ -162,7 +162,14 @@ export function DataTable<TData, TValue>({
     <div className="flex flex-col gap-4">
       <DataTableToolbar table={table} />
       <div className="relative overflow-auto rounded-md border">
-        <Table>
+        <Table
+          role="table"
+          aria-label="Taula d'usuaris amb funcions d'ordenació i filtratge"
+        >
+          <caption className="sr-only">
+            Taula que mostra {table.getRowCount()} usuaris amb opcions per
+            ordenar, filtrar i gestionar cada registre
+          </caption>
           <TableHeader className="sticky top-0 z-10 bg-background">
             {table.getHeaderGroups().map((headerGroup) => (
               <TableRow key={headerGroup.id}>

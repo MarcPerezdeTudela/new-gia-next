@@ -25,8 +25,9 @@ export function DataTableViewOptions<TData>({
           variant="outline"
           size="sm"
           className="ml-auto hidden h-8 lg:flex"
+          aria-label="Veure opcions de visualització"
         >
-          <Settings2 />
+          <Settings2 aria-hidden="true" />
           Veure
         </Button>
       </DropdownMenuTrigger>

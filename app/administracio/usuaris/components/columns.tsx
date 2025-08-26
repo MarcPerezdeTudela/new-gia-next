@@ -7,12 +7,17 @@ import { DataTableColumnHeader } from "./data-table-column-header";
 import { DataTableRowActions } from "./data-table-row-actions";
 import { Avatar } from "@radix-ui/react-avatar";
 import { AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
+
+const getInitials = (name: string) => {
+  return (
+    name
+      ?.split(" ")
+      .map((word) => word[0])
+      .join("")
+      .toUpperCase()
+      .slice(0, 2) || "U"
+  );
+};
 
 export const columns: ColumnDef<User>[] = [
   {
@@ -46,7 +51,7 @@ export const columns: ColumnDef<User>[] = [
             alt={`Avatar de ${row.getValue("nom")}`}
           />
           <AvatarFallback className="h-8 w-8 rounded-full text-xs">
-            GI
+            {getInitials(row.getValue("nom"))}
           </AvatarFallback>
         </Avatar>
         <span className="ml-2 text-sm font-medium truncate">
@@ -64,16 +69,7 @@ export const columns: ColumnDef<User>[] = [
     ),
     cell: ({ row }) => (
       <div className="max-w-[150px] truncate">
-        <TooltipProvider>
-          <Tooltip>
-            <TooltipTrigger asChild>
-              <span>{row.getValue("email")}</span>
-            </TooltipTrigger>
-            <TooltipContent>
-              <p>{row.getValue("email")}</p>
-            </TooltipContent>
-          </Tooltip>
-        </TooltipProvider>
+        <span>{row.getValue("email")}</span>
       </div>
     ),
     enableSorting: true,
@@ -150,7 +146,9 @@ export const columns: ColumnDef<User>[] = [
   },
   {
     id: "accions",
-    header: () => <span className="sr-only">Accions</span>,
+    header: () => (
+      <span className="sr-only">Accions disponibles per a cada usuari</span>
+    ),
     cell: ({ row }) => <DataTableRowActions row={row} />,
   },
 ];

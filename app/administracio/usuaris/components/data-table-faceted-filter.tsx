@@ -42,7 +42,18 @@ export function DataTableFacetedFilter<TData, TValue>({
   return (
     <Popover>
       <PopoverTrigger asChild>
-        <Button variant="outline" size="sm" className="h-8 border-dashed">
+        <Button
+          variant="outline"
+          size="sm"
+          className="h-8 border-dashed"
+          aria-label={`Filtrar per ${title}${
+            selectedValues.size
+              ? `, ${selectedValues.size} filtres aplicats`
+              : ""
+          }`}
+          aria-expanded={false}
+          aria-haspopup="menu"
+        >
           <PlusCircle />
           {title}
           {selectedValues?.size > 0 && (
@@ -84,7 +95,7 @@ export function DataTableFacetedFilter<TData, TValue>({
         <Command>
           <CommandInput placeholder={title} />
           <CommandList>
-            <CommandEmpty>No results found.</CommandEmpty>
+            <CommandEmpty>No s&rsquo;han trobat resultats.</CommandEmpty>
             <CommandGroup>
               {options.map((option) => {
                 const isSelected = selectedValues.has(option.value);
@@ -102,6 +113,8 @@ export function DataTableFacetedFilter<TData, TValue>({
                         filterValues.length ? filterValues : undefined
                       );
                     }}
+                    role="checkbox"
+                    aria-checked={isSelected}
                   >
                     <div
                       className={cn(
@@ -111,14 +124,23 @@ export function DataTableFacetedFilter<TData, TValue>({
                           : "border-input [&_svg]:invisible"
                       )}
                     >
-                      <Check className="text-primary-foreground size-3.5" />
+                      <Check
+                        className="text-primary-foreground size-3.5"
+                        aria-hidden="true"
+                      />
                     </div>
                     {option.icon && (
-                      <option.icon className="text-muted-foreground size-4" />
+                      <option.icon
+                        className="text-muted-foreground size-4"
+                        aria-hidden="true"
+                      />
                     )}
                     <span>{option.label}</span>
                     {facets?.get(option.value) && (
-                      <span className="text-muted-foreground ml-auto flex size-4 items-center justify-center font-mono text-xs">
+                      <span
+                        className="text-muted-foreground ml-auto flex size-4 items-center justify-center font-mono text-xs"
+                        aria-label="Nombre d'elements amb aquest filtre"
+                      >
                         {facets.get(option.value)}
                       </span>
                     )}
