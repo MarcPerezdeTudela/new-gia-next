@@ -7,6 +7,8 @@ import { DataTableColumnHeader } from "./data-table-column-header";
 import { DataTableRowActions } from "./data-table-row-actions";
 import { Avatar } from "@radix-ui/react-avatar";
 import { AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { cn } from "@/lib/utils";
+import { Badge } from "@/components/ui/badge";
 
 const getInitials = (name: string) => {
   return (
@@ -26,8 +28,8 @@ export const columns: ColumnDef<User>[] = [
       <DataTableColumnHeader column={column} title="NIF" />
     ),
     cell: ({ row }) => (
-      <div className="w-[120px]">
-        <span className="font-mono text-sm">{row.getValue("nif")}</span>
+      <div className="w-[80px]">
+        <span className="text-sm">{row.getValue("nif")}</span>
       </div>
     ),
     enableSorting: true,
@@ -50,11 +52,13 @@ export const columns: ColumnDef<User>[] = [
             {getInitials(row.original.nom)}
           </AvatarFallback>
         </Avatar>
-        <div className="min-w-0 flex-1 flex flex-col gap-0.5">
-          <div className="font-medium text-sm truncate">{row.original.nom}</div>
-          <div className="text-sm text-muted-foreground truncate">
+        <div className="flex flex-col">
+          <span className="font-medium text-sm truncate">
+            {row.original.nom}
+          </span>
+          <span className="text-xs text-muted-foreground truncate">
             {row.original.email}
-          </div>
+          </span>
         </div>
       </div>
     ),
@@ -86,10 +90,10 @@ export const columns: ColumnDef<User>[] = [
 
       return (
         <div className="flex w-[100px] items-center gap-2">
-          {roleData.icon && (
-            <roleData.icon className="text-muted-foreground size-4" />
-          )}
-          <span>{roleData.label}</span>
+          <Badge variant="outline">
+            {roleData.icon && <roleData.icon className="size-4" />}
+            <span>{roleData.label}</span>
+          </Badge>
         </div>
       );
     },
@@ -116,22 +120,20 @@ export const columns: ColumnDef<User>[] = [
       const isActive = accessosData.label.toLowerCase() === "actiu";
       const isInactive = accessosData.label.toLowerCase() === "inactiu";
 
-      const textColor = isActive
-        ? "text-green-600 dark:text-green-400"
-        : isInactive
-        ? "text-red-600 dark:text-red-400"
-        : "text-gray-700 dark:text-gray-300";
-
       return (
         <div className="flex w-[100px] items-center">
           {accessosData.icon && (
-            <div className="flex items-center gap-1.5">
+            <Badge variant="outline">
               <accessosData.icon
-                className={`size-4 ${textColor}`}
-                aria-hidden="true"
+                className={cn(
+                  "-ml-0.5 size-4 shrink-0",
+                  isActive && "text-emerald-600 dark:text-emerald-500",
+                  isInactive && "text-red-600 dark:text-red-500"
+                )}
+                aria-hidden={true}
               />
               <span>{accessosData.label}</span>
-            </div>
+            </Badge>
           )}
         </div>
       );

@@ -28,6 +28,7 @@ import {
 import { DataTablePagination } from "./data-table-pagination";
 import { DataTableToolbar } from "./data-table-toolbar";
 import { DataTableRowActions } from "./data-table-row-actions";
+import { UserCard } from "./user-card";
 import { User } from "../data/schema";
 
 interface DataTableProps<TData, TValue> {
@@ -99,7 +100,7 @@ export function DataTable<TData, TValue>({
   );
 
   const globalFilterFn = React.useCallback(
-    (row: Row<unknown>, columnId: string, value: string) => {
+    (row: Row<TData>, columnId: string, value: string) => {
       const searchColumns = ["nif", "nom", "empresa"];
       const searchValue = value.toLowerCase();
 
@@ -169,7 +170,8 @@ export function DataTable<TData, TValue>({
   return (
     <div className="flex flex-col gap-4">
       <DataTableToolbar table={table} />
-      <div className="relative overflow-auto rounded-md border">
+
+      <div className="hidden relative overflow-auto rounded-md border lg:block">
         <Table
           role="table"
           aria-label="Taula d'usuaris amb funcions d'ordenació i filtratge"
@@ -230,7 +232,7 @@ export function DataTable<TData, TValue>({
               <TableRow>
                 <TableCell
                   colSpan={columns.length}
-                  className="h-24 text-center"
+                  className="h-24 text-center text-muted-foreground"
                 >
                   Sense resultats.
                 </TableCell>
@@ -239,6 +241,29 @@ export function DataTable<TData, TValue>({
           </TableBody>
         </Table>
       </div>
+
+      <div className="block lg:hidden">
+        <div className="space-y-3">
+          {table.getRowModel().rows?.length ? (
+            table
+              .getRowModel()
+              .rows.map((row) => (
+                <UserCard
+                  key={row.id}
+                  user={row.original as User}
+                  onAccessChange={handleAccessChange}
+                  onRoleChange={handleRoleChange}
+                  onDelete={handleDeleteSelected}
+                />
+              ))
+          ) : (
+            <div className="flex items-center justify-center h-32 rounded-md border border-dashed">
+              <p className="text-sm text-muted-foreground">Sense resultats.</p>
+            </div>
+          )}
+        </div>
+      </div>
+
       <DataTablePagination table={table} />
     </div>
   );

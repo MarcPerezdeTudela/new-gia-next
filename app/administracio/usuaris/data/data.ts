@@ -3,10 +3,9 @@ import {
   User,
   GraduationCap,
   BriefcaseBusiness,
-  Check,
   Wrench,
-  X,
 } from "lucide-react";
+import { RiCheckboxCircleFill, RiCloseCircleFill } from "@remixicon/react";
 
 export enum Rol {
   Admin = "admin",
@@ -57,11 +56,11 @@ export const accessos: Data[] = [
   {
     value: Access.Active,
     label: "Actiu",
-    icon: Check,
+    icon: RiCheckboxCircleFill,
   },
   {
     value: Access.Inactive,
     label: "Inactiu",
-    icon: X,
+    icon: RiCloseCircleFill,
   },
 ];
